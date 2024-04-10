@@ -3,5 +3,30 @@ body {
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-between;
+    font-family: roboto, sans-serif;
 }
 
+.header {
+    background-color: #213648;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px 0 150px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.logo {
+    font-size: large;
+    font-weight: bold;
+}
+
+.headerlist {
+    display:flex;
+    gap: 20px;
+    color: #c9bfbf;
+}
