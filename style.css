@@ -38,7 +38,7 @@ ul {
     flex: 1;
 }
 
-.sec1, .sec2, .sec3, .sec4 {
+.sec1, .sec2 {
     height: 400px;
 }
 
@@ -126,4 +126,25 @@ ul {
     border-color: #3b64eb;
     padding: 50px 0 70px 0;
     border-radius: 10px;
+}
+
+.sec3 {
+    height: 340px;
+    background-color: #ececec;
+    padding: 0 150px 0 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec3 p {
+    font-size: 30px;
+    font-weight: 100;
+    color: #4f4e4e;
+}
+
+.sec3 div {
+    align-self: self-end;
+    font-size: large;
+    font-weight: bold;
 }
