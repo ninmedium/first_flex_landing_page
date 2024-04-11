@@ -30,3 +30,61 @@ ul {
     gap: 20px;
     color: #c9bfbf;
 }
+
+.maincon {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.sec1, .sec2, .sec3, .sec4 {
+    height: 400px;
+}
+
+.sec1 {
+    background-color: #213648;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px 0 150px;
+    gap: 40px;
+}
+
+.left1 {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sec1 #h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.sec1 p {
+    color: #c9bfbf;
+    margin: 5px 0 5px 0;
+}
+
+.right1 {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    flex-shrink: 0;
+    text-align: center;
+    line-height: 200px;
+    vertical-align: middle;
+    color: white;
+}
+
+.left1 button {
+    margin: 5px 0 0 0;
+    background-color: rgb(59, 100, 235);
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+}
