@@ -29,6 +29,7 @@ ul {
     display:flex;
     gap: 20px;
     color: #c9bfbf;
+    cursor: pointer;
 }
 
 .maincon {
@@ -64,7 +65,7 @@ ul {
 
 .sec1 p {
     color: #c9bfbf;
-    margin: 5px 0 5px 0;
+    margin: 8px 0 5px 0;
 }
 
 .right1 {
@@ -79,12 +80,50 @@ ul {
 }
 
 .left1 button {
-    margin: 5px 0 0 0;
-    background-color: rgb(59, 100, 235);
+    margin: 8px 0 0 0;
+    background-color: #3b64eb;
     color: white;
     font-weight: bold;
     font-size: medium;
     border: none;
     padding: 10px 30px 10px 30px;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 150px 0 150px;
+    flex-grow: 1;
+}
+
+.sec2 #h2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.conlist {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex: 0 1 0;
+    flex-wrap: nowrap;
+}
+
+.conlist li {
+    max-width: 150px;
+    flex-shrink: 0;
+}
+
+.conlist li div {
+    border: solid;
+    border-color: #3b64eb;
+    padding: 50px 0 70px 0;
+    border-radius: 10px;
 }
