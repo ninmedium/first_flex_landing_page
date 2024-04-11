@@ -13,6 +13,7 @@ body {
     justify-content: space-between;
     padding: 0 150px 0 150px;
     align-items: center;
+    gap: 20px;
 }
 
 ul {
@@ -49,6 +50,7 @@ ul {
     align-items: center;
     padding: 0 150px 0 150px;
     gap: 40px;
+    min-width: fit-content;
 }
 
 .left1 {
@@ -141,10 +143,57 @@ ul {
     font-size: 30px;
     font-weight: 100;
     color: #4f4e4e;
+    min-width: 400px;
 }
 
 .sec3 div {
     align-self: self-end;
     font-size: large;
     font-weight: bold;
+}
+
+.sec4 {
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 150px 0 150px;
+}
+
+.bluecon {
+    display: flex;
+    background-color: #3b64eb;
+    color: white;
+    width: 100%;
+    padding: 40px 100px 40px 100px;
+    border-radius: 10px;
+    justify-content: space-around;
+    min-width: max-content;
+    gap: 20px;
+}
+
+#h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bluecon button {
+    background-color: #3b64eb;
+    color: white;
+    border-color: white;
+    border: solid;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    flex-shrink: 0;
+    min-width: fit-content;
+}
+
+.footer {
+    height: 75px;
+    background-color: #213648;
+    color: #c9bfbf;
+    text-align: center;
+    line-height: 75px;
+    vertical-align: middle;
 }
